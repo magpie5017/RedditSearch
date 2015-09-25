@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Reddit Search API Example</title>
+<link rel="stylesheet" href="css/styles.css">
+<script src="http://j.mp/jqymin"></script>
+</head>
+
+<body>
+    <h1>Reddit Search API</h1>
+    
+    <p>Enter your search below to view the top ten submissions:</p>
+    
+    <div id="search">
+        <form id="searchform" name="searchform">
+            <input type="text" class="search" id="keyword" name="keyword" placeholder="ex: cupcakes">
+            <button type="submit" class="submit" id="submit">Submit</button>
+        </form>
+    </div>
+        
+    <div id="listings"></div>
+   
+<script type='application/javascript' src='scripts/redditget.js'></script>
+</body>
+</html>
