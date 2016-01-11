@@ -1,2 +1,2 @@
 # RedditSearch
-Example of Using the Reddit Search API
+Basic exercise in using the Reddit Search API
